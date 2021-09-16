@@ -10,7 +10,7 @@
   <link rel="icon" href="./res/logoBig-noBg.png" type="image/icon type">
 </head>
 
-<body>
+<body oncontextmenu="return false">
   <!-- partial:index.partial.html -->
   <header>
   <h1 class="logo">Infy Hyd Confessions<span>.</span></h1>
@@ -46,8 +46,10 @@
         <br>
         **All rights reserved with the admin.</p>
 
-      <p><input type="checkbox" id="termsChkbx " onchange="isChecked(this, 'sub1')" /> I Agree to Terms &amp; Conditions
-        / Rules</p>
+      <p>
+      <input type="checkbox" id="termsChkbx " onchange="isChecked(this, 'sub1')" /> 
+      <label for="termsChkbx">I Agree to Terms &amp; Conditions / Rules</label>
+      </p>
       <button onclick="location.href ='https://surveyheart.com/form/60a8846104c6087ae9575664';" class="btn btn-primary"
         hidden="true" id="confession">Write Confession ✍️</button>
 
